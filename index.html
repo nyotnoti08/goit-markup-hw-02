@@ -4,68 +4,90 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>homework #2</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="header">
       <!-- Navigation bar -->
-      <nav>
-        <a href="#">WEBSTUDIO</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+      <nav class="header-navigation">
+        <a class="header-text" href="#">WEBSTUDIO</a>
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="">Studio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-address">
+        <ul class="header-address-list list">
+          <li>
+            <a class="header-address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
+      </address>
       <!--End of Navigation bar-->
     </header>
-    <!--Header-->
+    <!--end of Header-->
 
     <!--main-->
     <main>
       <!--Section 1-->
-      <section>
+      <section class="section-main">
         <h1>Effective Solutions<br />for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="main-button" type="button">Order Service</button>
       </section>
 
       <!--Section 2-->
       <section>
-        <div>
-          <ul>
-            <li>
+        <div class="div-section">
+          <ul class="div-section-list list">
+            <li class="div-section-item">
               <h3>Strategy</h3>
               <p>
-                Our goal is to identify the business<br />problem to walk away with the<br />
+                Our goal is to identify the business<br />problem to walk away
+                with the<br />
                 perfect and creative solution
               </p>
             </li>
 
-            <li>
+            <li class="div-section-item">
               <h3>Punctuality</h3>
               <p>
-                Bring the key message to the<br /> brand's audience for the best price<br />
+                Bring the key message to the<br />
+                brand's audience for the best price<br />
                 within the shortest possible time.
               </p>
             </li>
 
-            <li>
+            <li class="div-section-item">
               <h3>Diligence</h3>
               <p>
-                Research and confirm brands that<br /> present the strongest digital
-                growth<br /> opportunities and minimize risk.
+                Research and confirm brands that<br />
+                present the strongest digital growth<br />
+                opportunities and minimize risk.
               </p>
             </li>
 
-            <li>
+            <li class="div-section-item">
               <h3>Technologies</h3>
               <p>
-                Design practice focused on digital<br /> experiences. We bring forth a
-                deep<br /> passion for problem solving.
+                Design practice focused on digital<br />
+                experiences. We bring forth a deep<br />
+                passion for problem solving.
               </p>
             </li>
           </ul>
@@ -73,60 +95,88 @@
       </section>
 
       <!--Section 3-->
-      <section>
-        <div>
+      <section class="section-activity">
+        <div class="div-section-imgs">
           <h2>What are we Doing</h2>
-          <ul>
-            <li><img src="images/img-1.jpg" alt="img1" width="370" height="294" /></li>
-            <li><img src="images/img-2.jpg" alt="img2" width="370" height="294" /></li>
-            <li><img src="images/img-3.jpg" alt="img3" width="370" height="294" /></li>
+          <ul class="section-activity-list list">
+            <li class="div-section-img">
+              <img src="images/img-1.jpg" alt="img1" width="370" height="294" />
+            </li>
+            <li class="div-section-img">
+              <img src="images/img-2.jpg" alt="img2" width="370" height="294" />
+            </li>
+            <li class="div-section-img">
+              <img src="images/img-3.jpg" alt="img3" width="370" height="294" />
+            </li>
           </ul>
-      </div>
+        </div>
       </section>
 
       <!--Section 4-->
-      <section>
+      <section class="section-team">
         <div>
           <h2>Our Team</h2>
-          <ul>
-            <li>
-              <img src="images/team-1.jpg" alt="person1" width="270" height="260" />
+          <ul class="section-team-list list">
+            <li class="section-team-item">
+              <img
+                src="images/team-1.jpg"
+                alt="person1"
+                width="270"
+                height="260"
+              />
               <h3>Mark Guerrero</h3>
               <p>Product Designer</p>
             </li>
 
-            <li>
-              <img src="images/team-2.jpg" alt="person2" width="270" height="260" />
+            <li class="section-team-item">
+              <img
+                src="images/team-2.jpg"
+                alt="person2"
+                width="270"
+                height="260"
+              />
               <h3>Tom Ford</h3>
               <p>Frontend Developer</p>
             </li>
 
-            <li>
-              <img src="images/team-3.jpg" alt="person3" width="270" height="260" />
+            <li class="section-team-item">
+              <img
+                src="images/team-3.jpg"
+                alt="person3"
+                width="270"
+                height="260"
+              />
               <h3>Camila Garcia</h3>
               <p>Marketing</p>
             </li>
 
-            <li>
-              <img src="images/team-4.jpg" alt="person4" width="270" height="260" />
+            <li class="section-team-item">
+              <img
+                src="images/team-4.jpg"
+                alt="person4"
+                width="270"
+                height="260"
+              />
               <h3>Daniel Wilson</h3>
               <p>UI Designer</p>
             </li>
           </ul>
-      </div>
-    </section>
+        </div>
+      </section>
     </main>
     <!--end of main-->
 
     <!--Footer-->
     <footer>
-      <div>
-        <a href="#">WEBSTUDIO</a>
+      <div class="div-footer">
+        <a class="div-footer-link" href="#">WEBSTUDIO</a>
         <p>
-          Increase the flow of customers and<br />sales for your business with digital<br />          marketing & growth solutions.
+          Increase the flow of customers and<br />sales for your business with
+          digital<br />
+          marketing & growth solutions.
         </p>
-    </div>
-  </footer>
+      </div>
+    </footer>
     <!--end of Footer-->
   </body>
 </html>
