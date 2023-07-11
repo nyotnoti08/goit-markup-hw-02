@@ -11,34 +11,39 @@
     <!--Header-->
     <header class="header">
       <!-- Navigation bar -->
-      <nav class="header-navigation">
-        <a class="header-text" href="#">WEBSTUDIO</a>
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link" href="">Studio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-address">
-        <ul class="header-address-list list">
-          <li>
-            <a class="header-address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="header-address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="div-header container">
+        <nav class="header-navigation">
+          <a class="header-text link" href="#">WEBSTUDIO</a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href="">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="div-address container">
+        <address class="header-address">
+          <ul class="header-address-list list">
+            <li>
+              <a class="header-address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="header-address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
       <!--End of Navigation bar-->
     </header>
     <!--end of Header-->
@@ -47,13 +52,19 @@
     <main>
       <!--Section 1-->
       <section class="section-main">
-        <h1>Effective Solutions<br />for Your Business</h1>
-        <button class="main-button" type="button">Order Service</button>
+        <div class="div-section-main container">
+          <h1 class="section-main-header">
+            Effective Solutions<br />for Your Business
+          </h1>
+          <button class="section-main-button" type="button">
+            Order Service
+          </button>
+        </div>
       </section>
 
       <!--Section 2-->
-      <section>
-        <div class="div-section">
+      <section class="section-content">
+        <div class="container">
           <ul class="div-section-list list">
             <li class="div-section-item">
               <h3>Strategy</h3>
@@ -96,8 +107,8 @@
 
       <!--Section 3-->
       <section class="section-activity">
-        <div class="div-section-imgs">
-          <h2>What are we Doing</h2>
+        <div class="container">
+          <h2 class="section-activity-header">What are we Doing</h2>
           <ul class="section-activity-list list">
             <li class="div-section-img">
               <img src="images/img-1.jpg" alt="img1" width="370" height="294" />
@@ -114,8 +125,8 @@
 
       <!--Section 4-->
       <section class="section-team">
-        <div>
-          <h2>Our Team</h2>
+        <div class="container">
+          <h2 class="team-header">Our Team</h2>
           <ul class="section-team-list list">
             <li class="section-team-item">
               <img
@@ -124,8 +135,8 @@
                 width="270"
                 height="260"
               />
-              <h3>Mark Guerrero</h3>
-              <p>Product Designer</p>
+              <h3 class="team-header-item">Mark Guerrero</h3>
+              <p class="team-paragh-item">Product Designer</p>
             </li>
 
             <li class="section-team-item">
@@ -135,8 +146,8 @@
                 width="270"
                 height="260"
               />
-              <h3>Tom Ford</h3>
-              <p>Frontend Developer</p>
+              <h3 class="team-header-item">Tom Ford</h3>
+              <p class="team-paragh-item">Frontend Developer</p>
             </li>
 
             <li class="section-team-item">
@@ -146,8 +157,8 @@
                 width="270"
                 height="260"
               />
-              <h3>Camila Garcia</h3>
-              <p>Marketing</p>
+              <h3 class="team-header-item">Camila Garcia</h3>
+              <p class="team-paragh-item">Marketing</p>
             </li>
 
             <li class="section-team-item">
@@ -157,8 +168,8 @@
                 width="270"
                 height="260"
               />
-              <h3>Daniel Wilson</h3>
-              <p>UI Designer</p>
+              <h3 class="team-header-item">Daniel Wilson</h3>
+              <p class="team-paragh-item">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -167,10 +178,11 @@
     <!--end of main-->
 
     <!--Footer-->
-    <footer>
-      <div class="div-footer">
-        <a class="div-footer-link" href="#">WEBSTUDIO</a>
-        <p>
+    <footer class="footer">
+      <div class="div-footer container">
+        <a class="div-footer-link-1 link" href="#">WEB</a
+        ><a class="div-footer-link-2 link">STUDIO</a>
+        <p class="footer-paragh">
           Increase the flow of customers and<br />sales for your business with
           digital<br />
           marketing & growth solutions.
